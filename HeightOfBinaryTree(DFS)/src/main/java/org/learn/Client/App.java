@@ -34,6 +34,8 @@ public class App {
 		int height = HeightOfTree.heightOfTree(A);
 		if (height > 0) {
 			System.out.println("Height of a Binary Tree is : " + height);
+		} else {
+			System.out.println("Unable to calculate the height of a binary tree");
 		}
 	}
 }
